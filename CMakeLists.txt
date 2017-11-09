@@ -3,4 +3,5 @@ project(CMAKETEST)
 
 include_directories (math)
 
-add_subdirectory (math app)
+add_subdirectory (math)
+add_subdirectory (app)
